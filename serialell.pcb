@@ -6,7 +6,7 @@ FileVersion[20070407]
 PCB["" 236220 157480]
 
 Grid[2500.0 0 0 0]
-Cursor[42500 65000 6.000000]
+Cursor[22500 40000 6.000000]
 PolyArea[200000000.000000]
 Thermal[0.500000]
 DRC[1600 1000 1000 500 1500 1000]
@@ -930,7 +930,7 @@ Layer(3 "Vcc-sldr")
 )
 Layer(4 "Text-sldr")
 (
-	Text[142000 105500 2 160 "Serialell v1.0" "clearline,onsolder"]
+	Text[144500 105500 2 160 "Serialell v1.0" "clearline,onsolder"]
 )
 Layer(5 "component")
 (
