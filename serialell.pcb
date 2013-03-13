@@ -6,7 +6,7 @@ FileVersion[20070407]
 PCB["" 236220 157480]
 
 Grid[2500.0 0 0 0]
-Cursor[30000 55000 6.000000]
+Cursor[0 12500 6.000000]
 PolyArea[200000000.000000]
 Thermal[0.500000]
 DRC[1600 1000 1000 500 1500 1000]
@@ -892,15 +892,15 @@ Element["" "JUMPER2_1" "JP3" "unknown" 112500 72500 -7997 11100 0 100 ""]
 
 	)
 
-Element["" "JUMPER2_1" "JP4" "unknown" 92500 82500 11100 19497 1 100 ""]
+Element["" "JUMPER2_1" "JP4" "unknown" 102500 102500 1100 -503 1 100 ""]
 (
-	Pin[5000 5000 8000 3200 8500 4000 "1" "1" ""]
-	Pin[5000 15000 8000 3200 8500 4000 "2" "2" ""]
-	ElementLine [0 10000 10000 10000 1000]
-	ElementLine [0 0 10000 0 1000]
-	ElementLine [10000 0 10000 20000 1000]
-	ElementLine [0 20000 10000 20000 1000]
-	ElementLine [0 0 0 20000 1000]
+	Pin[-5000 -5000 8000 3200 8500 4000 "1" "1" ""]
+	Pin[-5000 -15000 8000 3200 8500 4000 "2" "2" ""]
+	ElementLine [-10000 -10000 0 -10000 1000]
+	ElementLine [-10000 0 0 0 1000]
+	ElementLine [-10000 -20000 -10000 0 1000]
+	ElementLine [-10000 -20000 0 -20000 1000]
+	ElementLine [0 -20000 0 0 1000]
 
 	)
 Layer(1 "solder")
@@ -965,7 +965,7 @@ NetList()
 	Net("unnamed_net3" "(unknown)")
 	(
 		Connect("BOARD-4")
-		Connect("JP4-2")
+		Connect("JP4-1")
 		Connect("MOT_2-4")
 	)
 	Net("unnamed_net4" "(unknown)")
@@ -988,7 +988,7 @@ NetList()
 	)
 	Net("unnamed_net7" "(unknown)")
 	(
-		Connect("JP4-1")
+		Connect("JP4-2")
 		Connect("JS2-1")
 		Connect("MOT_1-4")
 	)
