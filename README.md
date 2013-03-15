@@ -2,8 +2,7 @@ Serialell
 =========
 
 Serialell is a connector board companion to any RepRap electronics to allow
-both serial or paralell motor connection when an axis is controlled by two
-motors.
+both serial or paralell motor connection when an axis uses two motors.
 
 Usage
 -----
